@@ -28,19 +28,6 @@ img {
     width:10%;
 }
 
-img :hover {
-    -webkit-animation: vibrate-2 0.3s linear infinite both;
-    animation: vibrate-2 0.3s linear infinite both;
-}
-
-@media screen and (max-width:768px) {
-    img {
-        position: unset;
-        display: block;
-        margin: auto;
-    }
-}
-
 section {
     background: rgb(253, 238, 252);
     margin: 20px;
@@ -52,5 +39,5 @@ section {
 main {
     display: flex;
     justify-content: center;
-    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
 }
