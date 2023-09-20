@@ -21,11 +21,14 @@ body {
 }
 
 img {
-
     box-shadow: 2px 2px 2px black;
     position:absolute;
     right:20px;
-    width:10%;
+    width:5%;
+}
+
+.pfp{
+    top:10px;
 }
 
 section {
@@ -40,4 +43,8 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap:wrap-reverse;
+}
+
+footer{
+
 }
